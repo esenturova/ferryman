@@ -1,0 +1,27 @@
+.hero {
+  background-image: url(../src/img/png/hero.png);
+  width: 1920px;
+  height: 620px;
+}
+
+.hero__title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero__description {
+  font-family: "Roboto" ,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}

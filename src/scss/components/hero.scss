@@ -1,11 +1,10 @@
 .hero {
-  &__img {
-    position: absolute;
-    width: 1920px;
-    height: 620px;
-    left: 0px;
-    top: 145px;
-  }
+background-image: url(../src/img/png/hero.png);
+ 
+  width: 1920px;
+  height: 620px;
+  
+  
   &__title {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -19,16 +18,13 @@
     color: #ffffff;
   }
   &__description{
-    font-family: Roboto;
+    font-family: "Roboto" ,sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 28px;
-    text-align: center;
-    
-    /* White */
-    
-    color: #FFFFFF;
+    text-align: center;   
+          color: #FFFFFF;
     
   }
 }
