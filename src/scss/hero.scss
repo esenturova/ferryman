@@ -1,0 +1,34 @@
+.hero {
+  &__img {
+    position: absolute;
+    width: 1920px;
+    height: 620px;
+    left: 0px;
+    top: 145px;
+  }
+  &__title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #ffffff;
+  }
+  &__description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+  }
+}
