@@ -1,5 +1,17 @@
-.header{
-    &__list{
-        @include font ($color-white, 12px, normal ,)
-    }
+.header {
+  &__top{
+    background-color: $color-brown;
+    padding: 16px 0 16px;
+  }
+  &__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__list {
+    @include font($color-white, 12px, normal, $font-roboto);
+    margin-right: 10px;
+  }
+ 
 }
