@@ -199,7 +199,6 @@ a {
   margin-left: 35px;
 }
 
-<<<<<<< HEAD
 .europe {
   background-color: #2F343A;
 }
@@ -220,7 +219,8 @@ a {
   letter-spacing: 0.05em;
   text-transform: uppercase;
   max-width: 445px;
-=======
+}
+
 .hero {
   background-image: url(../img/png/hero.png);
   background-repeat: no-repeat;
@@ -269,5 +269,4 @@ a {
   line-height: 28px;
   text-align: center;
   padding-bottom: 45px;
->>>>>>> 26853e5735de5acbd2af67b7ee4fd6332002817d
 }
