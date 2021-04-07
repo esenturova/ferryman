@@ -198,3 +198,25 @@ a {
 .header__line {
   margin-left: 35px;
 }
+
+.europe {
+  background-color: #2F343A;
+}
+
+.europe__line {
+  background-color: #C8A35F;
+  width: 90px;
+  height: 6px;
+}
+
+.europe__title {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto , sans-serif";
+  font-style: normal;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 445px;
+}

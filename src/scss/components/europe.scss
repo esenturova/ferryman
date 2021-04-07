@@ -1,0 +1,16 @@
+.europe {
+  background-color: $color-darkblue;
+  &__line {
+    background-color: $color-brown;
+    width: 90px;
+    height: 6px;
+  }
+  &__title {
+    @include font($color-white, 40px, bold, $font-roboto);
+    font-style: normal;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width:445px;
+  }
+}
