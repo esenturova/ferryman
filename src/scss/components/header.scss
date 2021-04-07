@@ -13,5 +13,40 @@
     @include font($color-white, 12px, normal, $font-roboto);
     margin-right: 10px;
   }
+  &__bottom{
+    background-color: $color-darkblue;
+    padding: 32px 0 32px;
+   
+  }
+  &__bottom-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+  }
+  &__bottom-list{
+    @include font($color-white, 14px, normal, $font-roboto);
+    text-transform: uppercase;
+    margin-right:30px;
+  }
+  &__bottom-menu{
+    display: flex;
+    align-items: center;
+    
+  }
+  &__bottom-list{
+    @include font($color-white, 12px, normal, $font-roboto);
+    margin-left: 15px;
+  }
+  &__bottom-left{
+    display: flex;
+    align-items: center;
+  }
+  &__line{
+    margin-left: 35px;
+  }
+
+
+
+
  
 }
