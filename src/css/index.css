@@ -202,6 +202,7 @@ a {
 .hero {
   background-image: url(../img/png/hero.png);
   background-repeat: no-repeat;
+  background-size: cover;
   max-width: 100%;
   padding: 155px 0 220px;
 }
