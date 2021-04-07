@@ -1,0 +1,34 @@
+.hero {
+  background-image: url(../img/png/hero.png);
+  background-repeat: no-repeat;
+  max-width: 100%;
+  height: 620px;
+  padding:155px 0 220px;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $color-brown;
+    
+  }
+  &__title {
+    @include font($color-white, 64px, bold, $font-roboto);
+    font-style: normal;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    padding:45px 0;
+    
+  }
+  &__description {
+    @include font($color-white, 18px, normal, $font-roboto);
+  font-style: normal;
+max-width: 720px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 45px;
+  }
+}
