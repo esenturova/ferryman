@@ -153,15 +153,21 @@ a {
 }
 
 .header__list:hover {
-  background-color: #bdbaba;
+  background-color: #dee0e2;
   color: #2F343A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
+.header__list2 {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto , sans-serif";
+}
+
 .header__bottom {
-  background-color: #2F343A;
-  padding: 32px 0 32px;
+  background-color: #4c555a;
 }
 
 .header__bottom-row {
@@ -182,7 +188,14 @@ a {
   font-weight: normal;
   font-family: "Roboto , sans-serif";
   text-transform: uppercase;
-  margin-right: 30px;
+  padding: 32px 25px;
+}
+
+.header__bottom-list:hover {
+  background-color: #dee0e2;
+  color: #2F343A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__bottom-menu {
@@ -194,12 +207,19 @@ a {
           align-items: center;
 }
 
-.header__bottom-list {
+.header__bottom-list1 {
   color: #FFFFFF;
   font-size: 12px;
   font-weight: normal;
   font-family: "Roboto , sans-serif";
-  margin-left: 15px;
+  padding: 32px 25px;
+}
+
+.header__bottom-list1:hover {
+  background-color: aliceblue;
+  color: #2F343A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__bottom-left {
@@ -213,6 +233,129 @@ a {
 
 .header__line {
   margin-left: 35px;
+}
+
+.hero {
+  background-image: url(../img/png/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding: 155px 0 220px;
+}
+
+.hero__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #C8A35F;
+}
+
+.hero__title {
+  color: #FFFFFF;
+  font-size: 64px;
+  font-weight: bold;
+  font-family: "Roboto , sans-serif";
+  font-style: normal;
+  line-height: 75px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 45px 0;
+}
+
+.hero__description {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Roboto , sans-serif";
+  font-style: normal;
+  max-width: 720px;
+  line-height: 28px;
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+.services {
+  background-color: #2F343A;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding-bottom: 200px;
+}
+
+.services__line {
+  background-color: #C8A35F;
+  width: 90px;
+  height: 6px;
+  margin-bottom: 40px;
+}
+
+.services__titlet {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto , sans-serif";
+  font-style: normal;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  max-width: 445px;
+  padding-bottom: 60px;
+}
+
+.services__blok {
+  background-color: #4c555a;
+  background-color: hovre;
+  width: 298px;
+  height: 188px;
+  margin: 1px;
+}
+
+.services__blok:hover {
+  background-color: #C8A35F;
+}
+
+.services__title {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Roboto , sans-serif";
+  font-style: normal;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.services__svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  fill: #FFFFFF;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 55px 123px 23px 123px;
+}
+
+.services__svg:hover {
+  background-color: aliceblue;
+  border-radius: 100%;
+  fill: #2F343A;
 }
 
 .europe {
@@ -354,6 +497,10 @@ a {
   width: 188px;
 }
 
+.company__img {
+  width: 100%;
+}
+
 .company__main-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -381,7 +528,7 @@ a {
 }
 
 .company__number {
-  color: #2F343A;
+  color: #4c555a;
   font-size: 64px;
   font-weight: bold;
   font-family: "Roboto , sans-serif";
@@ -494,4 +641,9 @@ a {
 
 .footer__svg {
   margin-right: 40px;
+}
+
+.map {
+  width: 100%;
+  background-size: cover;
 }
