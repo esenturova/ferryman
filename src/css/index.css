@@ -153,15 +153,21 @@ a {
 }
 
 .header__list:hover {
-  background-color: #bdbaba;
+  background-color: #dee0e2;
   color: #2F343A;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
+.header__list2 {
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: normal;
+  font-family: "Roboto , sans-serif";
+}
+
 .header__bottom {
   background-color: #2F343A;
-  padding: 32px 0 32px;
 }
 
 .header__bottom-row {
@@ -182,7 +188,14 @@ a {
   font-weight: normal;
   font-family: "Roboto , sans-serif";
   text-transform: uppercase;
-  margin-right: 30px;
+  padding: 32px 25px;
+}
+
+.header__bottom-list:hover {
+  background-color: #dee0e2;
+  color: #2F343A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__bottom-menu {
@@ -194,12 +207,19 @@ a {
           align-items: center;
 }
 
-.header__bottom-list {
+.header__bottom-list1 {
   color: #FFFFFF;
   font-size: 12px;
   font-weight: normal;
   font-family: "Roboto , sans-serif";
-  margin-left: 15px;
+  padding: 32px 25px;
+}
+
+.header__bottom-list1:hover {
+  background-color: aliceblue;
+  color: #2F343A;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .header__bottom-left {
@@ -494,4 +514,9 @@ a {
 
 .footer__svg {
   margin-right: 40px;
+}
+
+.map {
+  width: 100%;
+  background-size: cover;
 }
