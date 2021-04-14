@@ -16,16 +16,18 @@
     @include font($color-white, 12px, normal, $font-roboto);
     padding: 16px 16px;
     &:hover {
-      background-color: rgb(189, 186, 186);
-
+      background-color: rgb(222, 224, 226);
       color: $color-lightblack;
       transition: 0.5s;
     }
   }
+  &__list2{
+    @include font($color-white, 12px, normal, $font-roboto);
+  }
 
   &__bottom {
     background-color: $color-darkblue;
-    padding: 32px 0 32px;
+   
   }
   &__bottom-row {
     display: flex;
@@ -35,15 +37,27 @@
   &__bottom-list {
     @include font($color-white, 14px, normal, $font-roboto);
     text-transform: uppercase;
-    margin-right: 30px;
+   
+    padding: 32px 25px;
+    &:hover{
+      background-color: rgb(222, 224, 226);
+      color: $color-lightblack;
+      transition: 0.5s;
+    }
   }
   &__bottom-menu {
     display: flex;
     align-items: center;
   }
-  &__bottom-list {
+  &__bottom-list1 {
     @include font($color-white, 12px, normal, $font-roboto);
-    margin-left: 15px;
+   
+    padding: 32px 25px;
+    &:hover{
+      background-color: aliceblue;
+      color: $color-lightblack;
+      transition: 0.5s;
+    }
   }
   &__bottom-left {
     display: flex;
