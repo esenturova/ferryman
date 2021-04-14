@@ -12,7 +12,6 @@
     justify-content: center;
     align-items: center;
     border: 1px solid $color-brown;
-    
   }
   &__title {
     @include font($color-white, 64px, bold, $font-roboto);
@@ -26,8 +25,8 @@
   }
   &__description {
     @include font($color-white, 18px, normal, $font-roboto);
-  font-style: normal;
-max-width: 720px;
+    font-style: normal;
+    max-width: 720px;
     line-height: 28px;
     text-align: center;
     padding-bottom: 45px;
