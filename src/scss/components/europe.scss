@@ -1,0 +1,67 @@
+.europe {
+  padding: 120px 0 120px;
+  background-color: $color-darkblue;
+  &__line {
+    background-color: $color-brown;
+    width: 90px;
+    height: 6px;
+    margin-bottom: 40px;
+  }
+  &__title {
+    @include font($color-white, 40px, bold, $font-roboto);
+    font-style: normal;
+    line-height: 49px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    max-width: 445px;
+  }
+  &__text {
+    @include font($color-white, 18px, normal, $font-roboto);
+    font-style: normal;
+    line-height: 28px;
+    max-width: 420px;
+    font-style: normal;
+  }
+  &__button {
+    @include font($color-white, 16px, 500, $font-roboto);
+    background: $color-brown;
+    font-style: normal;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 18px 48px;
+    outline: none;
+    border-style: none;
+    margin-top: 50px;
+    &:hover{
+      background-color: transparent;
+      border:2px solid $color-brown;
+      color: $color-brown;
+      font-weight: bold;
+      transition: 0.5s;
+    }
+  }
+  
+  &__slides {
+    margin-top: 254px;
+    display: flex;
+    align-items: center;
+  }
+  &__slides1 {
+    display: flex;
+    align-items: center;
+  }
+  &__space {
+    margin-right: 31px;
+    @include font($color-white, 16px, 500, $font-roboto);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  &__space1 {
+    margin-left: 31px;
+    @include font($color-white, 16px, 500, $font-roboto);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+}

@@ -4,22 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./src/css/index.css">
     <title>Ferryman</title>
 </head>
 <body>
-
-
 <header class="header">
-  
-        <div class="header__top">
+  <div class="header__top">
             <div class="container">
                 <div class="row header__row">
-                    <ul class="header__menu">
+                    <ul class="header__menu" >
                         <li class="header__list">РУС</li>
                         <li class="header__list">ENG</li>
                         <li class="header__list">FR</li>
-                       </div>
+                       
                     </ul>
                     <span class="header__list">8 (800) 123-45-67</span>
                     <span class="header__list">sales@log.ru</span>
@@ -29,13 +27,13 @@
         <div class="header__bottom">
             <div class="container">
               <div class="row header__bottom-row">
-                <div class="header__bottom-left">
+                <div class="header__bottom-left" data-aos="fade-down-right">
                 <img src="./src/img/png/logo.png" alt="logo">
                 <img class="header__line" src="./src/img/svg/Line.svg" alt="line">
                 <img class="header__line" src="./src/img/svg/placeholder.svg" alt="gps">
                 <span class="header__bottom-list">Наши офисы</span>
                 </div>
-                <ul class="header__bottom-menu">
+                <ul class="header__bottom-menu" data-aos="fade-up-left">
                     <li class="header__bottom-list">услуги</li>
                     <li class="header__bottom-list">О компании</li>
                     <li class="header__bottom-list">вакансии</li>
@@ -44,22 +42,22 @@
             </div>
             </div>
         </div>
-  
-</header>
+  </header>
+
 <main>
-  <section class="hero">
-      <div class="container"> 
-       <div class="hero__text">
-                    <h1 class="hero__title">
-                      Грузовые перевозки
-                    </h1>
-                    <p class="hero__description">
-                      Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов
-                    </p>
-            
-                   </div>
-  </section>
-  <section class="services">
+ <section class="hero">
+    <div class="container"> 
+     <div class="hero__text">
+                  <h1 class="hero__title">
+                    Грузовые перевозки
+                  </h1>
+                  <p class="hero__description">
+                    Перевозка крупногабаритных грузов по России и Европе. Полное экспедирование, страхование, упаковка и хранение грузов
+                  </p>
+          
+                 </div>
+</section>
+<section class="europe">
     <div class="container">
       <div class="row"> 
        <div class="col-3">
@@ -142,9 +140,105 @@
             </h3>
         </div>
        </div>         
+        <div class="row">
+          <div class="col-5">
+            <div class="europe__line"></div>
+            <h2 class="europe__title" data-aos="zoom-in-up">грузоперевозки
+                по европе</h2>
+                <p class="europe__text" data-aos="zoom-in-up">Страны Евросоюза, а также Украина,
+                    Белоруссия со всеми документами.</p>
+                    <button class="europe__button">ПОДРОБНЕЕ</button>
+        </div>
+        <div class="col-7">
+       <div class="row">
+        <img src="./src/img/png/europe.png" alt="bus">
+        <div class="europe__row">
+          <div class="row  europe__slides1"><span class="europe__slider europe__space">след</span> <img src="./src/img/svg/strelka.svg" alt=""></div>
+        <div class="row europe__slides"><img src="./src/img/svg/strelka1.svg" alt=""> <span class="europe__slider europe__space1">Назад</span></div>
+        </div>
+       </div>
+      </div>
+        </div>
+      </div>
+    
+</section>
+<section class="company">
+  <div class="container">
+    <div class="company__rectangle"></div>
+    <div class="row">
+      <div class="col-5">
+       <div class="europe__line"></div>
+       <h3 class="europe__title">О компании</h3>
+       <p class="company__text">Lorem Ipsum - это текст-"рыба", 
+         часто используемый в печати и вэб-дизайне. Lorem Ipsum 
+         является стандартной "рыбой" для текстов на латинице 
+         с начала XVI века. В то время некий безымянный печатник 
+         создал большую коллекцию размеров и форм шрифтов, используя 
+         Lorem Ipsum для распечатки образцов. Lorem Ipsum не только 
+         успешно пережил без заметных изменений пять веков, 
+         но и перешагнул в электронный дизайн.</p>
+      </div>
+      <div class="company__rectangle"></div>
+ <div class="company__main-column">
+  <div  class="company__column">
+    <div class=" company__back">
+      <div class="company__row">
+        <span class="company__number">48</span>
+      <span class="company__word">офисов</span>
+      <span class="company__words">В Европе и СНГ</span>
       </div>
     </div>
-  </section>
+    <div class="company__back">
+      <div class="company__row">
+        <span class="company__number">36</span>
+      <span class="company__word">грузовиков</span>
+      <span class="company__words">Volvo, Scania</span>
+      </div>
+    </div>
+   
+    <div class=" company__back1">
+      <img class="company__img" src="./src/img/png/gruzovik.png" alt="">
+    </div>
+  </div>
+ 
+    <div class="company__column1">
+      <div class=" company__back1">
+        <img  class="company__img" src="./src/img/png/gruzovik.png" alt="">
+      </div>
+      
+      <div class="company__back">
+        <div class="company__row">
+          <span class="company__number">48</span>
+        <span class="company__word">офисов</span>
+        <span class="company__words">В Европе и СНГ</span>
+        </div>
+      </div>
+ </div>
+  </div>
+     </div>
+    </div>
+</section>
+
+ <footer class="footer">
+  <div class="container">
+    <div class="row footer">
+      <img class="footer__svg" src="./src/img/svg/logo.svg" alt="footerlogo">
+      <div class="footer__column">
+        <span class="footer__address">123456, Санкт-Петербург, Невский пр-кт 127</span>
+        <span class="footer__mail">sales@log.ru</span>
+      </div>
+      <div class="footer__column">
+        <span class="footer__number">+7 (812) 344-56-65</span>
+        <span class="footer__number footer__number2">+7 (812) 355-56-65</span>
+      </div>
+      <span class="footer__from">Разработано - D-E-N.ru</span>
+    </div>
+  </div>
+ </footer>
 </main>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
